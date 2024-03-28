@@ -93,3 +93,8 @@ src/styles/_animations.scss
 src/styles/_colors.scss
 src/styles/_fonts.scss
 tsconfig.json
+.prettierrc.json
+package-lock.json
+package.json
+public/404.html
+public/index.html
