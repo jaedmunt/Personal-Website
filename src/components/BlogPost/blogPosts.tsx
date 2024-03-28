@@ -10,7 +10,7 @@ type CalendarMonth = {
 const blogPosts = [
   {
     iconClass: 'fas fa-rocket',
-    title: 'be ambitious',
+    title: 'API wrapper mania',
     month: 'April',
     day: 10,
     year: 2023,

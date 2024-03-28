@@ -25,7 +25,7 @@ const Footer = () => {
             );
           })}
         </Row>
-        <p className="text-center">&copy; {currentYear} Melvin Rajendran</p>
+        <p className="text-center">&copy; {currentYear} Jaedon Munton</p>
       </footer>
     </Container>
   );

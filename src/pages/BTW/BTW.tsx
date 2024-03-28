@@ -13,7 +13,7 @@ const BTW = () => {
   return (
     <>
       <Title
-        title="by the way"
+        title="on my mind"
         subtitle="Life updates, random ideas, and other cool things that I'm up to."
       />
       <Section title="blog" hideTitle>

@@ -8,14 +8,14 @@ import technologies from '../../components/TechnologyList/technologies';
 
 const About = () => {
   useEffect(() => {
-    document.title = 'Melvin Rajendran | Aspiring Software Engineer | About';
+    document.title = 'Jaedon Munton | Technology and Venture Capital Professional | About';
   });
 
   return (
     <>
       <FullScreenTitle
-        title="hey, i'm melvin."
-        subtitle="An aspiring software engineer."
+        title="hello, i'm Jaedon"
+        subtitle="a technology and venture capital professional with a passion for innovation and entrepreneurship."
         imageSrc="/images/profile/melvin-portrait.jpg"
         imageAlt="Portrait of Melvin Rajendran"
       />
