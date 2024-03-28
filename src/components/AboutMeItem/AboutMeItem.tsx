@@ -27,7 +27,8 @@ const AboutMeItem = ({ index, text, iconClass }: AboutMeItemProps) => {
           }`}
           ref={ref}
         >
-          <p className="p-4 h2 fw-normal">{text}</p>
+          {/* Use dangerouslySetInnerHTML to parse the HTML content */}
+          <p className="p-4 h2 fw-normal" dangerouslySetInnerHTML={{ __html: text }}></p>
         </Col>
       </CSSTransition>
       <Col lg className={`mb-4 text-center ${hasEvenIndex ? 'order-lg-2' : 'order-lg-1'}`}>
